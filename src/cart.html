@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoThrive - Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="products-header">
+            <div class="logo-bar">
+                <img src="assets/logo.jpg" alt="EcoThrive Logo" class="center-logo">
+                <nav class="main-nav">
+                    <a href="products.html" class="back-to-shop">← Continue Shopping</a>
+                    <a href="index.html" class="logout-btn">Logout</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main class="products-main">
+            <h1>Shopping Cart</h1>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-item">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">₹0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Shipping:</span>
+                    <span>Free</span>
+                </div>
+                <div class="summary-item total">
+                    <span>Total:</span>
+                    <span id="total">₹0.00</span>
+                </div>
+                <button class="checkout-btn" id="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </main>
+    </div>
+    <script src="js/productData.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

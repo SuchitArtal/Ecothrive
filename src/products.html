@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoThrive - Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="products-header">
+            <div class="logo-bar">
+                <img src="assets/logo.jpg" alt="EcoThrive Logo" class="center-logo">
+                <nav class="main-nav">
+                    <a href="#" class="cart-icon">🛒 Cart</a>
+                    <a href="index.html" class="logout-btn">Logout</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main class="products-main">
+            <h1>Our Product Categories</h1>
+            <div class="categories-grid">
+                <div class="category-card" data-category="scrubs">
+                    <h2>Scrubs</h2>
+                    <p>Natural exfoliants for smooth, glowing skin</p>
+                </div>
+
+                <div class="category-card" data-category="shampoos">
+                    <h2>Shampoos</h2>
+                    <p>Nourishing botanical hair care solutions</p>
+                </div>
+
+                <div class="category-card" data-category="soaps">
+                    <h2>Soaps</h2>
+                    <p>Gentle cleansing with natural ingredients</p>
+                </div>
+
+                <div class="category-card" data-category="moisturizers">
+                    <h2>Moisturizers</h2>
+                    <p>24-hour hydration for all skin types</p>
+                </div>
+
+                <div class="category-card" data-category="serums">
+                    <h2>Serums</h2>
+                    <p>Targeted treatments for skin concerns</p>
+                </div>
+            </div>
+            
+            <div id="products-section" class="products-section" style="display: none;">
+                <button class="back-button">← Back to Categories</button>
+                <h2 id="category-title"></h2>
+                <div id="products-grid" class="products-grid"></div>
+            </div>
+        </main>
+    </div>
+    <script src="js/productData.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
