@@ -2,9 +2,9 @@
   "name": "my-website",
   "version": "1.0.0",
   "description": "A simple website built with HTML, CSS, and JavaScript.",
-  "main": "src/index.html",
+  "main": "docs/index.html",
   "scripts": {
-    "start": "live-server src"
+    "start": "live-server docs"
   },
   "keywords": [],
   "author": "",
